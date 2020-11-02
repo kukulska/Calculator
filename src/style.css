@@ -1,0 +1,29 @@
+.wrapper {
+  border: solid 1px palevioletred;
+  column-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 90px);
+  grid-template-rows: repeat(6, 75px);
+  margin: 60px auto;
+  padding: 10px;
+  row-gap: 10px;
+  width: fit-content;
+  text-align: center;
+}
+
+.input {
+  border: solid 1px palevioletred;
+  grid-area: 1/1/2/5;
+  line-height: 75px;
+}
+
+.button {
+  border: solid 1px palevioletred;
+  line-height: 75px;
+}
+
+.equals {
+  border: solid 1px palevioletred;
+  grid-area: 3/4/7/5;
+  line-height: 322px;
+}
