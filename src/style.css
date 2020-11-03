@@ -16,7 +16,7 @@
 }
 
 .input {
-  border: solid 2px rgba(11, 30, 89, 0.4);
+  border: solid 2px rgba(11, 30, 89, 0.2);
   border-radius: 3px;
   grid-area: 1/1/2/5;
   line-height: 75px;
@@ -24,7 +24,7 @@
 
 .button {
   background-color: rgba(168, 190, 219, 0.2);
-  border: solid 1px rgba(11, 30, 89, 0.5);
+  border: solid 1px rgba(11, 30, 89, 0.2);
   border-radius: 3px;
   line-height: 75px;
   transition: all 200ms ease-in-out;
@@ -48,15 +48,15 @@
 }
 
 .equals {
-  background-color: rgba(241, 201, 81, 0.7);
-  border: solid 1px rgba(11, 30, 89, 0.5);
+  background-color: rgba(241, 201, 81, 0.5);
+  border: solid 1px rgba(11, 30, 89, 0.2);
   border-radius: 3px;
   grid-area: 3/4/7/5;
   line-height: 322px;
 }
 
 .equals:hover {
-  background-color: rgba(241, 201, 81, 0.8);
+  background-color: rgba(241, 201, 81, 0.6);
   -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 }
