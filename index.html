@@ -13,29 +13,49 @@
   <body>
     <div class="container">
       <div class="wrapper">
-        <div class="input">Input</div>
+        <input class="input" type="text" id="input" />
+        <input
+          class="button calculation-symbol"
+          type="button"
+          value="+"
+          onclick="display('+')"
+        />
+        <input
+          class="button calculation-symbol"
+          type="button"
+          value="-"
+          onclick="display('-')"
+        />
+        <input
+          class="button calculation-symbol"
+          type="button"
+          value="×"
+          onclick="display('*')"
+        />
 
-        <span class="button calculation-symbol">+</span>
-        <span class="button calculation-symbol">-</span>
-        <span class="button calculation-symbol">×</span>
-        <span class="button calculation-symbol">÷</span>
+        <input
+          class="button calculation-symbol"
+          type="button"
+          value="÷"
+          onclick="display('/')"
+        />
 
-        <span class="button">7</span>
-        <span class="button">8</span>
-        <span class="button">9</span>
-        <span class="equals">=</span>
+        <input class="button" type="button" value="7" onclick="display('7')" />
+        <input class="button" type="button" value="8" onclick="display('8')" />
+        <input class="button" type="button" value="9" onclick="display('9')" />
+        <input class="equals" type="button" value="=" onclick="solve()" />
 
-        <span class="button">4</span>
-        <span class="button">5</span>
-        <span class="button">6</span>
+        <input class="button" type="button" value="4" onclick="display('4')" />
+        <input class="button" type="button" value="5" onclick="display('5')" />
+        <input class="button" type="button" value="6" onclick="display('6')" />
 
-        <span class="button">1</span>
-        <span class="button">2</span>
-        <span class="button">3</span>
+        <input class="button" type="button" value="1" onclick="display('1')" />
+        <input class="button" type="button" value="2" onclick="display('2')" />
+        <input class="button" type="button" value="3" onclick="display('3')" />
 
-        <span class="button">0</span>
-        <span class="button">.</span>
-        <span class="button">AC</span>
+        <input class="button" type="button" value="0" onclick="display('0')" />
+        <input class="button" type="button" value="." onclick="display('.')" />
+        <input class="button" type="button" value="AC" onclick="clr()" />
       </div>
     </div>
     <script src="src/script.js"></script>
